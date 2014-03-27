@@ -1,7 +1,7 @@
 {
   "name": "hacker-news",
   "main": "./lib/hacker-news",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Craig Offutt",
   "description": "Atom package to view Hacker News articles",
   "activationEvents": [
