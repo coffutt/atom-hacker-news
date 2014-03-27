@@ -1,0 +1,20 @@
+{
+  "name": "hacker-news",
+  "main": "./lib/hacker-news",
+  "version": "0.0.0",
+  "author": "Craig Offutt",
+  "description": "Atom package to view Hacker News articles",
+  "activationEvents": [
+    "hacker-news:top"
+  ],
+  "repository": "https://github.com/atom/hacker-news",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "request": "^2.34.0",
+    "cheerio": "^0.13.1",
+    "open": "0.0.4"
+  }
+}
